@@ -1,0 +1,7 @@
+﻿tygrys;duży kot
+gepard;szybki kot
+lew;król zwierząt
+zebra;w paski
+miś;uszatek
+zając;bardzo skaczny
+żyrafa;bardzo wysoka

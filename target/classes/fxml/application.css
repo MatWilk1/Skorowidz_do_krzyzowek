@@ -1,0 +1,30 @@
+.window{
+	-fx-background-color:  linear-gradient(to top,#7f8fa6, #bdc3c7);
+}
+
+.result{
+	-fx-background-color:   linear-gradient(to bottom,#def1f9,transparent);
+	-fx-border-color: grey;
+}
+
+.button{
+	-fx-background-color: linear-gradient(to top,#bdc3c7, #dcdde1);
+
+	-fx-border-radius: 4;
+}
+
+.button:hover{
+	-fx-background-color: linear-gradient(to top,#95a5a6, #dcdde1);
+	-fx-border-width: 2;
+	-fx-border-color: orange;
+	-fx-border-radius: 4;
+	-fx-font-size: 11px;
+}
+
+.button:pressed{
+	-fx-background-color: linear-gradient(to top,#bdc3c7, #dcdde1);
+	-fx-border-width: 2;
+	-fx-border-color: #48a1ea;
+	-fx-border-radius: 4;
+	-fx-font-size: 11px;
+}

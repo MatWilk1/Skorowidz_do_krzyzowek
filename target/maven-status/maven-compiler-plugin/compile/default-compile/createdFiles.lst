@@ -1,0 +1,8 @@
+model\Model.class
+controllers\AppWindowShowController.class
+model\Main.class
+controllers\AppWindowController.class
+controllers\AppWindowAddController.class
+model\FileData.class
+controllers\MainController.class
+model\DialogWindow.class

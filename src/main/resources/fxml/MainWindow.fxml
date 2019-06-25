@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="window" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
+   <children>
+      <Button layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#switchToAppWindow" prefHeight="25.0" prefWidth="70.0" text="Start" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" />
+      <Button layoutX="515.0" layoutY="360.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="70.0" text="Koniec" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+      <Label alignment="TOP_CENTER" layoutX="108.0" layoutY="76.0" prefHeight="150.0" prefWidth="384.0" text="Autor: &#10;Mateusz Wilk&#10;&#10;Opis: &#10;Program umożliwia wyszukiwanie haseł do krzyżówek &#10;podając część hasła lub jego długość. Pozwale też na &#10;dodawanie nowych haseł. Hasła są odczytywane i zapisywane&#10;w plikach tekstowych." textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="108.0" layoutY="22.0" prefHeight="26.0" prefWidth="384.0" text="Skorowidz do krzyżówek" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../crossword.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
